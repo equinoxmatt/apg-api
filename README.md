@@ -3,4 +3,4 @@ apg-api
 
 API Wrappers for the APG API
 
-See example.php for usage
+See example.php files in each language folder for usage
