@@ -12,7 +12,7 @@ if (!function_exists('curl_init')) {
 }
 
 /* Check if JSON functions are available */
-if (!function_exists('json_decde')) {
+if (!function_exists('json_decode')) {
     throw new Exception('Facebook needs the JSON PHP extension.');
 }
 
