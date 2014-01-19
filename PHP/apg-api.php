@@ -56,4 +56,10 @@ class apgApi {
         $logbook = json_decode($this->makeRequest('logbook', $pid));
         return $logbook->data;
     }
+
+    public function authenticate($pid, $password) {
+        $params = $pid . "/" . $password;
+        $data = json_decode($this->makeRequest('authenticate', $params));
+        return $data;
+    }
 }
